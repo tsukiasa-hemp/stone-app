@@ -120,6 +120,23 @@ body::before { content:""; position:fixed; top:0; left:0; right:0; bottom:0; bac
 </style>
 </head>
 <body>
+
+<!-- 左上の水晶（右下向き・中央に向かって斜め） -->
+<img src="https://tsukiasa-hemp.github.io/stone-app/FullSizeRender.jpeg"
+  style="position:fixed;top:-50px;left:-50px;width:260px;height:260px;
+  opacity:0.15;pointer-events:none;z-index:0;
+  transform:rotate(30deg);
+  filter:invert(1) brightness(2);
+  object-fit:cover;">
+
+<!-- 右下の水晶（左上向き・中央に向かって斜め） -->
+<img src="https://tsukiasa-hemp.github.io/stone-app/FullSizeRender.jpeg"
+  style="position:fixed;bottom:-50px;right:-50px;width:260px;height:260px;
+  opacity:0.15;pointer-events:none;z-index:0;
+  transform:rotate(210deg);
+  filter:invert(1) brightness(2);
+  object-fit:cover;">
+
 <div class="container">
   <div class="header">
     <svg width="200" height="88" viewBox="0 0 260 115" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto 8px auto;opacity:0.92">
